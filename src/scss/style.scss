@@ -400,3 +400,47 @@ h3 {
         }
     }
 }
+
+.footer {
+    background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+
+    .footer-top {
+        padding: 3rem 0;
+        border-bottom: 2px solid #cacaca;
+
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 27px;
+            text-transform: uppercase;
+            text-align: left;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            color: #E0E0E0;  
+        }
+
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr );            
+            grid-column-gap: 40px; 
+            
+            .inline {
+                display: inline-block;
+                margin-right: 24px;
+            }
+        }
+    }
+
+        .footer-bottom {
+             padding: 2rem 0;
+
+            a {
+             text-decoration: none;
+             color: #E0E0E0;
+             margin-right: 16px;
+            }
+         }      
+}
