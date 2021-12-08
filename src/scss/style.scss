@@ -358,3 +358,45 @@ h3 {
         }
     }
 }
+
+.page-app {
+    padding-top: 100px;
+    margin-bottom: 100px;
+
+    h2 {
+        @media (max-width: 415px) {
+            margin-bottom: 48px;
+        }
+    }
+
+    .page-items {
+        display: flex;                
+        margin: 0 -72px;
+
+        @media (max-width: 415px) {
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            margin: 0;
+        }
+
+        .page-item {
+             margin: 0 72px;
+
+             @media (max-width: 415px) {
+                margin: 0;
+            }
+
+            .btn {
+                padding: 16px 40px;
+                background: #95390C;
+                border: none;
+                border-radius: 32px;
+                color: #ffffff;
+                font-size: 12.8px;
+                line-height: 19px;
+                width: 131px;
+                height: 53px;                
+            }
+        }
+    }
+}
