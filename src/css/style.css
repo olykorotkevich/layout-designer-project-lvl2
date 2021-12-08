@@ -441,6 +441,20 @@ h3 {
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 40px;
 }
+@media (max-width: 415px) {
+  .footer .footer-top .grid-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media (max-width: 415px) {
+  .footer .footer-top .grid-4 .grid-element {
+    width: 100%;
+  }
+}
 .footer .footer-top .grid-4 .inline {
   display: inline-block;
   margin-right: 24px;
@@ -452,4 +466,126 @@ h3 {
   text-decoration: none;
   color: #E0E0E0;
   margin-right: 16px;
+}
+@media (max-width: 415px) {
+  .footer .footer-bottom a {
+    display: block;
+  }
+}
+
+.page-description2 {
+  padding: 200px 0;
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+}
+.page-description2 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 25px;
+}
+.page-description2 .header a {
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.page-description2 .header .logo {
+  margin-right: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.page-description2 .header .logo img {
+  height: 24px;
+}
+.page-description2 .header .logo span {
+  display: block;
+  white-space: nowrap;
+  margin-left: 16px;
+}
+.page-description2 .header .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: 460px;
+}
+@media (max-width: 415px) {
+  .page-description2 .header .nav ul {
+    margin-right: auto;
+  }
+}
+.page-description2 .header .nav ul li {
+  list-style: none;
+  padding-right: 24px;
+}
+@media (max-width: 415px) {
+  .page-description2 .header .nav ul li {
+    width: 100%;
+    text-align: left;
+  }
+}
+.page-description2 .header .form-group input {
+  min-height: 25px;
+  background: #3c3b3d;
+  border-radius: 50px;
+  font-size: 13.3px;
+  line-height: 15px;
+  color: #757575;
+  border: none;
+  padding: 5px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  width: 248px;
+}
+@media (max-width: 415px) {
+  .page-description2 .header .form-group input {
+    width: 374px;
+  }
+}
+.page-description2 .banner {
+  text-align: left;
+}
+.page-description2 .banner .btn {
+  display: inline-block;
+  width: 200px;
+  height: 62px;
+  border: none;
+  font-size: 12.8px;
+  line-height: 150%;
+  padding: 20px 30px;
+}
+.page-description2 .banner .btn img {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+.page-description2 .banner .orange {
+  background: #95390C;
+}
+.page-description2 .banner .purple {
+  background: #5328A1;
+  margin-top: 48px;
+  margin-right: 24px;
+}
+@media (max-width: 415px) {
+  .page-description2 .banner .purple {
+    margin-bottom: 24px;
+  }
 }
