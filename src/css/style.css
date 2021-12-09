@@ -39,7 +39,7 @@ body {
 
 h1 {
   font-size: 60px;
-  line-height: 90px;
+  line-height: 0;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -99,7 +99,7 @@ h3 {
 }
 
 .page-description {
-  padding: 200px 0;
+  padding: 200px 0 178px 0;
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
@@ -117,17 +117,18 @@ h3 {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  top: 25px;
+  top: 1px;
+  right: 3px;
 }
-.page-description .header a {
+.page-description a {
   text-decoration: none;
   font-size: 11px;
   line-height: 16px;
   color: #ffffff;
   text-transform: uppercase;
 }
-.page-description .header .logo {
-  margin-right: 90px;
+.page-description .logo {
+  margin-right: 52px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -135,38 +136,38 @@ h3 {
       -ms-flex-align: center;
           align-items: center;
 }
-.page-description .header .logo img {
+.page-description .logo img {
   height: 24px;
 }
-.page-description .header .logo span {
+.page-description .logo span {
   display: block;
   white-space: nowrap;
   margin-left: 16px;
 }
-.page-description .header .nav ul {
+.page-description .nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-right: 460px;
+  margin-right: 428px;
 }
 @media (max-width: 415px) {
-  .page-description .header .nav ul {
+  .page-description .nav ul {
     margin-right: auto;
   }
 }
-.page-description .header .nav ul li {
+.page-description .nav ul li {
   list-style: none;
   padding-right: 24px;
 }
 @media (max-width: 415px) {
-  .page-description .header .nav ul li {
+  .page-description .nav ul li {
     width: 100%;
     text-align: left;
   }
 }
-.page-description .header .form-group input {
+.page-description .form-group input {
   min-height: 25px;
   background: #3c3b3d;
   border-radius: 50px;
@@ -178,16 +179,28 @@ h3 {
   padding-left: 10px;
   text-transform: uppercase;
   width: 248px;
+  margin-right: 70px;
 }
 @media (max-width: 415px) {
-  .page-description .header .form-group input {
+  .page-description .form-group input {
     width: 374px;
   }
 }
-.page-description .banner input {
+
+.banner {
+  margin-left: 40px;
+}
+@media (max-width: 415px) {
+  .banner {
+    margin-left: 0;
+  }
+}
+.banner input {
   min-width: 270px;
   min-height: 50px;
   padding-left: 20px;
+  margin-right: 12px;
+  margin-left: 12px;
   margin-bottom: 1.5rem;
   border: 2px solid #cacaca;
   border-radius: 3px;
@@ -200,24 +213,24 @@ h3 {
           box-sizing: border-box;
 }
 @media (max-width: 415px) {
-  .page-description .banner input {
+  .banner input {
     width: 374px;
   }
 }
-.page-description .banner input.green {
+.banner input.green {
   width: 570px;
   background: #34c176;
   padding: 20px 30px;
   border-radius: 5px;
   border: none;
   font-size: 13.3px;
-  line-height: 15px;
+  line-height: 18px;
   text-transform: uppercase;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 @media (max-width: 415px) {
-  .page-description .banner input.green {
+  .banner input.green {
     width: 374px;
   }
 }
@@ -405,7 +418,7 @@ h3 {
 }
 .page-app .page-items .page-item .btn {
   padding: 16px 40px;
-  background: #95390C;
+  background: #95390c;
   border: none;
   border-radius: 32px;
   color: #ffffff;
@@ -432,7 +445,7 @@ h3 {
 .footer .footer-top a {
   display: block;
   text-decoration: none;
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 .footer .footer-top .grid-4 {
   display: -ms-grid;
@@ -464,7 +477,7 @@ h3 {
 }
 .footer .footer-bottom a {
   text-decoration: none;
-  color: #E0E0E0;
+  color: #e0e0e0;
   margin-right: 16px;
 }
 @media (max-width: 415px) {
@@ -577,10 +590,10 @@ h3 {
   margin-right: 16px;
 }
 .page-description2 .banner .orange {
-  background: #95390C;
+  background: #95390c;
 }
 .page-description2 .banner .purple {
-  background: #5328A1;
+  background: #5328a1;
   margin-top: 48px;
   margin-right: 24px;
 }
@@ -619,7 +632,7 @@ h3 {
       flex-wrap: wrap;
   font-size: 12.8px;
   line-height: 0%;
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 .page-popular-track .popular-tracks .popular-track {
   width: calc(50% - 50px);
