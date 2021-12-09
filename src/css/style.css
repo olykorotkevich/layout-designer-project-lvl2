@@ -236,7 +236,7 @@ h3 {
 }
 
 .page-pricing {
-  padding-top: 100px;
+  padding-top: 68px;
   color: #ffffff;
 }
 .page-pricing .pricing-items {
@@ -255,7 +255,7 @@ h3 {
 .page-pricing .pricing-item {
   width: 29%;
   min-width: 350px;
-  margin: 50px 25px;
+  margin: 0 25px 50px 25px;
   background-position: center;
   background-size: cover;
   padding: 1.5rem;
