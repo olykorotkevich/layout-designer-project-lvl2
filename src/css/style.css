@@ -599,12 +599,56 @@ h3 {
 .page-popular-track h3 {
   font-weight: bold;
   font-size: 12.8px;
-  line-height: 150%;
+  line-height: 0%;
   text-transform: uppercase;
+  text-align: left;
+}
+.page-popular-track p {
+  line-height: 0;
 }
 .page-popular-track .popular-track img {
   width: 55px;
   height: 55px;
+  margin-right: 15px;
+}
+.page-popular-track .popular-tracks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 12.8px;
+  line-height: 0%;
+  color: #E0E0E0;
+}
+.page-popular-track .popular-tracks .popular-track {
+  width: calc(50% - 50px);
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 25px;
+}
+.page-popular-track .popular-tracks .popular-track:nth-child(5), .page-popular-track .popular-tracks .popular-track:nth-child(6) {
+  margin-bottom: 0;
+}
+@media (max-width: 415px) {
+  .page-popular-track .popular-tracks .popular-track:nth-child(5) {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 415px) {
+  .page-popular-track .popular-tracks .popular-track {
+    width: 100%;
+  }
+}
+.page-popular-track .popular-tracks .popular-track .track-info {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.page-popular-track .popular-tracks .track-time {
+  text-align: right;
 }
 
 .page-discography {
