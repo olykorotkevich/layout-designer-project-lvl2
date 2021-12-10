@@ -118,7 +118,7 @@ h3 {
           align-items: center;
   position: absolute;
   top: 1px;
-  right: 3px;
+  right: 44px;
 }
 .page-description a {
   text-decoration: none;
@@ -187,14 +187,6 @@ h3 {
   }
 }
 
-.banner {
-  margin-left: 40px;
-}
-@media (max-width: 415px) {
-  .banner {
-    margin-left: 0;
-  }
-}
 .banner input {
   min-width: 270px;
   min-height: 50px;
@@ -239,14 +231,6 @@ h3 {
   padding-top: 68px;
   color: #ffffff;
 }
-.page-pricing h2 {
-  margin-left: 40px;
-}
-@media (max-width: 415px) {
-  .page-pricing h2 {
-    margin-left: 0;
-  }
-}
 .page-pricing .pricing-items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -259,7 +243,7 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 -25px 0 0;
+  margin: 0 -25px;
 }
 @media (max-width: 415px) {
   .page-pricing .pricing-items {
@@ -269,15 +253,15 @@ h3 {
 .page-pricing .pricing-item {
   width: calc(33.3% - 50px);
   min-width: 350px;
-  margin: 18px 0px 44px 25px;
+  margin: 17px 25px 28px 25px;
   background-position: center;
   background-size: cover;
-  padding: 1.5rem 1.5rem 50px 1.5rem;
+  padding: 1rem 1.5rem 50px 1.5rem;
   border-radius: 1rem;
   text-align: center;
 }
 .page-pricing .pricing-item h3 {
-  margin-bottom: 200px;
+  margin-bottom: 210px;
   line-height: 0;
 }
 .page-pricing .pricing-item .pricing-value {
@@ -318,21 +302,14 @@ h3 {
 }
 
 .page-news {
-  padding-top: 95px;
-  padding-left: 40px;
-}
-@media (max-width: 415px) {
-  .page-news {
-    padding-left: 0;
-  }
+  padding-top: 50px;
 }
 .page-news h2 {
-  margin-bottom: 76px;
-  line-height: 0;
+  margin-bottom: 46px;
 }
 .page-news h3 {
   font-size: 30px;
-  line-height: 45px;
+  line-height: 49px;
   text-align: left;
   margin-top: 0;
   text-transform: capitalize;
@@ -349,7 +326,7 @@ h3 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 -25px 57px -25px;
+  margin: 0 -25px 55px -25px;
 }
 @media (max-width: 415px) {
   .page-news .news-item:nth-child(3) {
@@ -408,18 +385,12 @@ h3 {
   text-transform: uppercase;
 }
 .page-news .news-item .news-footer {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .page-app {
-  padding-top: 6px;
-  padding-left: 40px;
-  margin-bottom: 100px;
-}
-@media (max-width: 415px) {
-  .page-app {
-    padding-left: 0;
-  }
+  padding-top: 11px;
+  margin-bottom: 92px;
 }
 @media (max-width: 415px) {
   .page-app h2 {
@@ -430,7 +401,10 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 -72px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 50px 0 -72px;
 }
 @media (max-width: 415px) {
   .page-app .page-items {
@@ -467,7 +441,7 @@ h3 {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 .footer .footer-top {
-  padding: 3rem 0;
+  padding: 3rem 0 70px 0;
   border-bottom: 2px solid #cacaca;
 }
 .footer .footer-top h2 {
@@ -508,12 +482,12 @@ h3 {
   margin-right: 24px;
 }
 .footer .footer-bottom {
-  padding: 2rem 0;
+  padding: 45px 0;
 }
 .footer .footer-bottom a {
   text-decoration: none;
   color: #e0e0e0;
-  margin-right: 16px;
+  margin-right: 13px;
 }
 @media (max-width: 415px) {
   .footer .footer-bottom a {
