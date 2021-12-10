@@ -243,26 +243,19 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 -25px;
-}
-@media (max-width: 415px) {
-  .page-pricing .pricing-items {
-    margin: 0;
-  }
 }
 .page-pricing .pricing-item {
-  width: calc(33.3% - 50px);
-  min-width: 350px;
+  width: calc(33% - 50px);
   margin: 17px 25px 28px 25px;
   background-position: center;
   background-size: cover;
-  padding: 1rem 1.5rem 50px 1.5rem;
+  padding: 0 1.5rem 30px 1.5rem;
   border-radius: 1rem;
   text-align: center;
 }
 .page-pricing .pricing-item h3 {
   margin-bottom: 210px;
-  line-height: 0;
+  line-height: 1.5;
 }
 .page-pricing .pricing-item .pricing-value {
   font-size: 64px;
