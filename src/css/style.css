@@ -239,34 +239,50 @@ h3 {
   padding-top: 68px;
   color: #ffffff;
 }
+.page-pricing h2 {
+  margin-left: 40px;
+}
+@media (max-width: 415px) {
+  .page-pricing h2 {
+    margin-left: 0;
+  }
+}
 .page-pricing .pricing-items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 -25px 0 0;
+}
+@media (max-width: 415px) {
+  .page-pricing .pricing-items {
+    margin: 0;
+  }
 }
 .page-pricing .pricing-item {
-  width: 29%;
+  width: calc(33.3% - 50px);
   min-width: 350px;
-  margin: 0 25px 50px 25px;
+  margin: 18px 0px 44px 25px;
   background-position: center;
   background-size: cover;
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem 50px 1.5rem;
   border-radius: 1rem;
+  text-align: center;
 }
 .page-pricing .pricing-item h3 {
   margin-bottom: 200px;
+  line-height: 0;
 }
 .page-pricing .pricing-item .pricing-value {
   font-size: 64px;
-  line-height: 1em;
+  line-height: 0;
   text-align: center;
 }
 .page-pricing .pricing-item .pricing-value sup {
@@ -284,6 +300,7 @@ h3 {
   text-align: center;
   text-decoration: none;
   font-weight: normal;
+  margin-bottom: 63px;
 }
 .page-pricing .pricing-item .pricing-footer {
   font-size: 12.8px;
@@ -301,15 +318,24 @@ h3 {
 }
 
 .page-news {
-  padding-top: 100px;
+  padding-top: 95px;
+  padding-left: 40px;
+}
+@media (max-width: 415px) {
+  .page-news {
+    padding-left: 0;
+  }
 }
 .page-news h2 {
-  margin-bottom: 48px;
+  margin-bottom: 76px;
+  line-height: 0;
 }
 .page-news h3 {
   font-size: 30px;
   line-height: 45px;
+  text-align: left;
   margin-top: 0;
+  text-transform: capitalize;
 }
 @media (max-width: 415px) {
   .page-news h3 {
@@ -323,7 +349,7 @@ h3 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 -25px 65px -25px;
+  margin: 0 -25px 57px -25px;
 }
 @media (max-width: 415px) {
   .page-news .news-item:nth-child(3) {
@@ -381,10 +407,19 @@ h3 {
   line-height: 19px;
   text-transform: uppercase;
 }
+.page-news .news-item .news-footer {
+  margin-top: 15px;
+}
 
 .page-app {
-  padding-top: 100px;
+  padding-top: 6px;
+  padding-left: 40px;
   margin-bottom: 100px;
+}
+@media (max-width: 415px) {
+  .page-app {
+    padding-left: 0;
+  }
 }
 @media (max-width: 415px) {
   .page-app h2 {
