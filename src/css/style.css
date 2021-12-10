@@ -243,28 +243,29 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 -25px;
 }
 .page-pricing .pricing-item {
   width: calc(33% - 50px);
   margin: 17px 25px 28px 25px;
   background-position: center;
   background-size: cover;
-  padding: 0 1.5rem 30px 1.5rem;
+  padding: 0 1.5rem 50px 1.5rem;
   border-radius: 1rem;
   text-align: center;
 }
 .page-pricing .pricing-item h3 {
-  margin-bottom: 210px;
+  margin-bottom: 195px;
   line-height: 1.5;
 }
 .page-pricing .pricing-item .pricing-value {
   font-size: 64px;
-  line-height: 0;
+  line-height: 32px;
   text-align: center;
 }
 .page-pricing .pricing-item .pricing-value sup {
   font-size: 32px;
-  line-height: 150%;
+  line-height: 32px;
 }
 .page-pricing .pricing-item .btn {
   display: block;
