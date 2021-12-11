@@ -92,14 +92,16 @@ h3 {
 .center {
     text-align: center;
 }
-#page-description {
-    padding: 200px 0 178px 0;
+.page-description {
+    
     background-image: url("../images/banner.png");
     background-position: center;
     background-size: cover;
     text-align: center;
     color: #ffffff;
-    position: relative;
+    position: relative;    
+    padding: 200px 0 178px 0;
+        
 
     .header {
         display: flex;
