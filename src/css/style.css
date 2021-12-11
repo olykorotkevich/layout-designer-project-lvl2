@@ -90,11 +90,6 @@ h3 {
   margin: 0 auto;
   padding: 0 20px;
 }
-@media (max-width: 415px) {
-  .container {
-    padding: 0 20px;
-  }
-}
 
 .center {
   text-align: center;
@@ -248,7 +243,7 @@ h3 {
   margin: 0 -25px;
 }
 #page-pricing .pricing-item {
-  width: calc(33% - 50px);
+  width: calc(33.3% - 50px);
   margin: 17px 25px 28px 25px;
   background-position: center;
   background-size: cover;
@@ -257,17 +252,19 @@ h3 {
   text-align: center;
 }
 #page-pricing .pricing-item h3 {
-  margin-bottom: 195px;
+  margin-bottom: 200px;
   line-height: 1.5;
 }
 #page-pricing .pricing-item .pricing-value {
   font-size: 64px;
-  line-height: 32px;
+  line-height: 1em;
   text-align: center;
+  padding-bottom: 38px;
+  margin: 0;
 }
 #page-pricing .pricing-item .pricing-value sup {
   font-size: 32px;
-  line-height: 32px;
+  line-height: 1em;
 }
 #page-pricing .pricing-item .btn {
   display: block;
