@@ -12,9 +12,6 @@
 * {
     box-sizing: border-box;
 }
-html {
-    width: 100%;
-}
 
 body {
     font-family: "Roboto";
@@ -95,7 +92,7 @@ h3 {
 .center {
     text-align: center;
 }
-.page-description {
+#page-description {
     padding: 200px 0 178px 0;
     background-image: url("../images/banner.png");
     background-position: center;
