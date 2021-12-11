@@ -259,8 +259,7 @@ h3 {
   font-size: 64px;
   line-height: 1em;
   text-align: center;
-  padding-bottom: 38px;
-  margin: 0;
+  margin: 0 0 38px 0;
 }
 #page-pricing .pricing-item .pricing-value sup {
   font-size: 32px;
