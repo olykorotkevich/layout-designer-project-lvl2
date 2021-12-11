@@ -14,6 +14,8 @@
 }
 
 body {
+  padding: 0;
+  margin: 0;
   font-family: "Roboto";
   font-weight: normal;
   font-size: 16px;
@@ -35,7 +37,7 @@ body {
 
 h1 {
   font-size: 60px;
-  line-height: 0;
+  line-height: 9px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -94,16 +96,16 @@ h3 {
   text-align: center;
 }
 
-#page-description {
-  padding: 200px 0 178px 0;
+.page-description {
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
   text-align: center;
   color: #ffffff;
   position: relative;
+  padding: 200px 0 178px 0;
 }
-#page-description .header {
+.page-description .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -113,17 +115,17 @@ h3 {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  top: 1px;
-  right: 44px;
+  top: 9px;
+  right: 50px;
 }
-#page-description a {
+.page-description a {
   text-decoration: none;
   font-size: 11px;
   line-height: 16px;
   color: #ffffff;
   text-transform: uppercase;
 }
-#page-description .logo {
+.page-description .logo {
   margin-right: 52px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,15 +134,15 @@ h3 {
       -ms-flex-align: center;
           align-items: center;
 }
-#page-description .logo img {
+.page-description .logo img {
   height: 24px;
 }
-#page-description .logo span {
+.page-description .logo span {
   display: block;
   white-space: nowrap;
   margin-left: 16px;
 }
-#page-description .nav ul {
+.page-description .nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,21 +151,21 @@ h3 {
   margin-right: 428px;
 }
 @media (max-width: 415px) {
-  #page-description .nav ul {
+  .page-description .nav ul {
     margin-right: auto;
   }
 }
-#page-description .nav ul li {
+.page-description .nav ul li {
   list-style: none;
   padding-right: 24px;
 }
 @media (max-width: 415px) {
-  #page-description .nav ul li {
+  .page-description .nav ul li {
     width: 100%;
     text-align: left;
   }
 }
-#page-description .form-group input {
+.page-description .form-group input {
   min-height: 25px;
   background: #3c3b3d;
   border-radius: 50px;
@@ -178,7 +180,7 @@ h3 {
   margin-right: 70px;
 }
 @media (max-width: 415px) {
-  #page-description .form-group input {
+  .page-description .form-group input {
     width: 374px;
   }
 }
