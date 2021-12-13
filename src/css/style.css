@@ -296,7 +296,7 @@ h3 {
 }
 
 #page-news {
-  padding-top: 90px;
+  padding-top: 100px;
 }
 #page-news h2 {
   margin-bottom: 48px;
@@ -443,7 +443,7 @@ h3 {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 .footer .footer-top {
-  padding: 3rem 0 70px 0;
+  padding: 3rem 0 3rem 0;
   border-bottom: 2px solid #cacaca;
 }
 .footer .footer-top h2 {
@@ -486,7 +486,7 @@ h3 {
   margin-right: 20px;
 }
 .footer .footer-bottom {
-  padding: 40px 0 49px 0;
+  padding: 2rem 0;
 }
 .footer .footer-bottom a {
   text-decoration: none;
