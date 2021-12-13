@@ -319,14 +319,12 @@ h3 {
         }
     }
 
+    
+
     .news-item {
         display: flex;
         flex-wrap: wrap;
-        margin: 0 -25px 0 -25px;
-
-        &:nth-child(2) {
-            margin: 0 -25px 60px -25px;
-        }
+        margin: 0 -25px 0 -25px;       
 
 
         &:nth-child(3) {
@@ -350,6 +348,7 @@ h3 {
         .news-content {
             width: calc(50% - 50px);
             margin: 0 25px;
+            height: 286px;
 
             @media (max-width: 415px) {
                 width: 100%;
@@ -388,6 +387,10 @@ h3 {
         .mt-15 {
             margin-top: 15px;
         }
+    }
+
+    .mb-65 {
+        margin-bottom: 65px;
     }
 }
 

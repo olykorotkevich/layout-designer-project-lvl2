@@ -322,9 +322,6 @@ h3 {
       flex-wrap: wrap;
   margin: 0 -25px 0 -25px;
 }
-#page-news .news-item:nth-child(2) {
-  margin: 0 -25px 60px -25px;
-}
 @media (max-width: 415px) {
   #page-news .news-item:nth-child(3) {
     -webkit-box-orient: vertical;
@@ -348,6 +345,7 @@ h3 {
 #page-news .news-item .news-content {
   width: calc(50% - 50px);
   margin: 0 25px;
+  height: 286px;
 }
 @media (max-width: 415px) {
   #page-news .news-item .news-item-img,
@@ -387,6 +385,9 @@ h3 {
 }
 #page-news .news-item .mt-15 {
   margin-top: 15px;
+}
+#page-news .mb-65 {
+  margin-bottom: 65px;
 }
 
 #page-app {
