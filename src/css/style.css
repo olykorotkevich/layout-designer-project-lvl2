@@ -323,7 +323,7 @@ h3 {
   margin: 0 -25px 0 -25px;
 }
 #page-news .news-item:nth-child(2) {
-  margin: 0 -25px 65px -25px;
+  margin: 0 -25px 60px -25px;
 }
 @media (max-width: 415px) {
   #page-news .news-item:nth-child(3) {
