@@ -305,7 +305,7 @@ h3 {
   font-size: 30px;
   line-height: 45px;
   text-align: left;
-  margin-top: 0;
+  margin: 0 0 30px 0;
   text-transform: capitalize;
 }
 @media (max-width: 415px) {
@@ -387,7 +387,7 @@ h3 {
   margin-top: 15px;
 }
 #page-news .mb-65 {
-  margin-bottom: 67px;
+  margin-bottom: 65px;
 }
 
 #page-app {
