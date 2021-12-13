@@ -391,8 +391,8 @@ h3 {
 }
 
 #page-app {
-  padding-top: 92px;
-  margin-bottom: 92px;
+  padding-top: 100px;
+  margin-bottom: 100px;
 }
 @media (max-width: 415px) {
   #page-app h2 {
