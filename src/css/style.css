@@ -443,7 +443,7 @@ h3 {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 .footer .footer-top {
-  padding: 3rem 0 70px 0;
+  padding: 3rem 0 52px 0;
   border-bottom: 2px solid #cacaca;
 }
 .footer .footer-top h2 {
@@ -459,6 +459,12 @@ h3 {
   display: block;
   text-decoration: none;
   color: #e0e0e0;
+}
+.footer .footer-top ul {
+  padding: 0;
+}
+.footer .footer-top li {
+  list-style: none;
 }
 .footer .footer-top .grid-4 {
   display: -ms-grid;
