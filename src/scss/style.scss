@@ -453,12 +453,10 @@ h3 {
             text-transform: uppercase;
             text-align: left;
             margin-top: 16px;
-            margin-bottom: 13px;
-           
+            margin-bottom: 13px;           
         }
 
-        a {
-          
+        a {          
             text-decoration: none;
             color: #e0e0e0;
         }
@@ -715,6 +713,12 @@ h3 {
         font-size: 18px;
         line-height: 27px;
         text-align: left;
+        text-transform: none;
+        margin: 12px 0 0 0;
+    }
+
+    p {
+        margin: 0;
     }
 
     .discography-items {
@@ -759,10 +763,16 @@ h3 {
 
     h2 {
         text-align: left;
+        margin-bottom: 46px;        
+    }
 
-        @media (max-width: 415px) {
-            margin-bottom: 48px;
-        }
+    h3 {
+        text-transform: none;
+        margin: 11px 0 0 0;
+    }
+
+    p {
+        margin: 0;
     }
 
     .similar-items {
