@@ -655,7 +655,7 @@ h3 {
 @media (max-width: 415px) {
   #page-popular-track h3 {
     line-height: 150%;
-    margin: 7px 0 -8px 0;
+    margin: 7px 179px 0 0;
   }
 }
 #page-popular-track p {
@@ -663,7 +663,7 @@ h3 {
 }
 @media (max-width: 415px) {
   #page-popular-track p {
-    margin: 0;
+    margin: 0 179px 0 0;
     font-size: 12.8px;
     line-height: 150%;
   }
@@ -719,7 +719,7 @@ h3 {
 }
 @media (max-width: 415px) {
   #page-popular-track .popular-tracks .track-time {
-    margin: 0 0 -10px 0;
+    margin: 0;
   }
 }
 
