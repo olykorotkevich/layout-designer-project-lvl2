@@ -107,7 +107,7 @@ h3 {
     padding: 200px 0 178px 0;
 
     @media (max-width: 415px) {
-        padding: 200px 0 178px 0;
+        padding: 200px 0 176px 0;
     }
         
 
@@ -247,7 +247,11 @@ h3 {
 
 #page-pricing {
     padding-top: 98px;
-    color: #ffffff;   
+    color: #ffffff;
+    
+    @media (max-width: 415px) {
+        padding-top: 102px;      
+    }
 
     .pricing-items {
         display: flex;
