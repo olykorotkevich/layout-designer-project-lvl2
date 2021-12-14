@@ -443,7 +443,7 @@ h3 {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 .footer .footer-top {
-  padding: 3rem 0 3rem 0;
+  padding: 3rem 0 70px 0;
   border-bottom: 2px solid #cacaca;
 }
 .footer .footer-top h2 {
@@ -486,7 +486,7 @@ h3 {
   margin-right: 20px;
 }
 .footer .footer-bottom {
-  padding: 2rem 0;
+  padding: 40px 0 50px 0;
 }
 .footer .footer-bottom a {
   text-decoration: none;
@@ -616,28 +616,28 @@ h3 {
   }
 }
 
-.page-popular-track {
+#page-popular-track {
   padding-top: 100px;
 }
-.page-popular-track h2 {
+#page-popular-track h2 {
   text-align: left;
 }
-.page-popular-track h3 {
+#page-popular-track h3 {
   font-weight: bold;
   font-size: 12.8px;
   line-height: 0%;
   text-transform: uppercase;
   text-align: left;
 }
-.page-popular-track p {
+#page-popular-track p {
   line-height: 0;
 }
-.page-popular-track .popular-track img {
+#page-popular-track .popular-track img {
   width: 55px;
   height: 55px;
   margin-right: 15px;
 }
-.page-popular-track .popular-tracks {
+#page-popular-track .popular-tracks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -647,7 +647,7 @@ h3 {
   line-height: 0%;
   color: #e0e0e0;
 }
-.page-popular-track .popular-tracks .popular-track {
+#page-popular-track .popular-tracks .popular-track {
   width: calc(50% - 50px);
   margin-right: 50px;
   display: -webkit-box;
@@ -655,91 +655,91 @@ h3 {
   display: flex;
   margin-bottom: 25px;
 }
-.page-popular-track .popular-tracks .popular-track:nth-child(5), .page-popular-track .popular-tracks .popular-track:nth-child(6) {
+#page-popular-track .popular-tracks .popular-track:nth-child(5), #page-popular-track .popular-tracks .popular-track:nth-child(6) {
   margin-bottom: 0;
 }
 @media (max-width: 415px) {
-  .page-popular-track .popular-tracks .popular-track:nth-child(5) {
+  #page-popular-track .popular-tracks .popular-track:nth-child(5) {
     margin-bottom: 25px;
   }
 }
 @media (max-width: 415px) {
-  .page-popular-track .popular-tracks .popular-track {
+  #page-popular-track .popular-tracks .popular-track {
     width: 100%;
   }
 }
-.page-popular-track .popular-tracks .popular-track .track-info {
+#page-popular-track .popular-tracks .popular-track .track-info {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
-.page-popular-track .popular-tracks .track-time {
+#page-popular-track .popular-tracks .track-time {
   text-align: right;
 }
 
-.page-discography {
+#page-discography {
   padding-top: 100px;
   text-align: left;
 }
-.page-discography h2 {
+#page-discography h2 {
   text-align: left;
 }
 @media (max-width: 415px) {
-  .page-discography h2 {
+  #page-discography h2 {
     margin-bottom: 48px;
   }
 }
-.page-discography h3 {
+#page-discography h3 {
   font-weight: bold;
   font-size: 18px;
   line-height: 27px;
   text-align: left;
 }
-.page-discography .discography-items {
+#page-discography .discography-items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.page-discography .discography-items .discography-item {
+#page-discography .discography-items .discography-item {
   margin-right: 50px;
 }
 @media (max-width: 415px) {
-  .page-discography .discography-items .discography-item {
+  #page-discography .discography-items .discography-item {
     width: 137px;
     margin-right: 0;
   }
 }
 @media (max-width: 415px) {
-  .page-discography .discography-items .discography-item:nth-child(odd) {
+  #page-discography .discography-items .discography-item:nth-child(odd) {
     width: 137px;
     margin-right: 50px;
   }
 }
-.page-discography .discography-items .discography-item:first-child, .page-discography .discography-items .discography-item:nth-child(2), .page-discography .discography-items .discography-item:nth-child(3), .page-discography .discography-items .discography-item:nth-child(4) {
+#page-discography .discography-items .discography-item:first-child, #page-discography .discography-items .discography-item:nth-child(2), #page-discography .discography-items .discography-item:nth-child(3), #page-discography .discography-items .discography-item:nth-child(4) {
   margin-bottom: 25px;
 }
 @media (max-width: 415px) {
-  .page-discography .discography-item img {
+  #page-discography .discography-item img {
     width: 137px;
     height: 137px;
   }
 }
 
-.page-similar {
+#page-similar {
   margin-bottom: 100px;
   padding-top: 100px;
 }
-.page-similar h2 {
+#page-similar h2 {
   text-align: left;
 }
 @media (max-width: 415px) {
-  .page-similar h2 {
+  #page-similar h2 {
     margin-bottom: 48px;
   }
 }
-.page-similar .similar-items {
+#page-similar .similar-items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -747,30 +747,30 @@ h3 {
       flex-wrap: wrap;
   text-align: center;
 }
-.page-similar .similar-items .similar-item {
+#page-similar .similar-items .similar-item {
   margin-right: 50px;
 }
 @media (max-width: 415px) {
-  .page-similar .similar-items .similar-item {
+  #page-similar .similar-items .similar-item {
     width: 137px;
     margin-right: 0;
   }
 }
 @media (max-width: 415px) {
-  .page-similar .similar-items .similar-item:nth-child(odd) {
+  #page-similar .similar-items .similar-item:nth-child(odd) {
     margin-right: 50px;
   }
 }
-.page-similar .similar-items .similar-item h3 {
+#page-similar .similar-items .similar-item h3 {
   font-weight: bold;
   font-size: 18px;
   line-height: 27px;
 }
-.page-similar .similar-items .similar-item:first-child, .page-similar .similar-items .similar-item:nth-child(2), .page-similar .similar-items .similar-item:nth-child(3), .page-similar .similar-items .similar-item:nth-child(4) {
+#page-similar .similar-items .similar-item:first-child, #page-similar .similar-items .similar-item:nth-child(2), #page-similar .similar-items .similar-item:nth-child(3), #page-similar .similar-items .similar-item:nth-child(4) {
   margin-bottom: 25px;
 }
 @media (max-width: 415px) {
-  .page-similar .similar-items .similar-item img {
+  #page-similar .similar-items .similar-item img {
     width: 137px;
     height: 137px;
   }

@@ -443,7 +443,7 @@ h3 {
     background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 
     .footer-top {
-        padding: 3rem 0 3rem 0;
+        padding: 3rem 0 70px 0;
         border-bottom: 2px solid #cacaca;
 
         h2 {
@@ -489,7 +489,7 @@ h3 {
     }
 
     .footer-bottom {
-        padding: 2rem 0;
+        padding: 40px 0 50px 0;
 
         a {
             text-decoration: none;
@@ -619,7 +619,7 @@ h3 {
     }
 }
 
-.page-popular-track {
+#page-popular-track {
     padding-top: 100px;
 
     h2 {
@@ -683,7 +683,7 @@ h3 {
     }
 }
 
-.page-discography {
+#page-discography {
     padding-top: 100px;
     text-align: left;
 
@@ -738,7 +738,7 @@ h3 {
     }
 }
 
-.page-similar {
+#page-similar {
     margin-bottom: 100px;
     padding-top: 100px;
 
