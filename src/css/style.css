@@ -652,8 +652,20 @@ h3 {
   text-transform: uppercase;
   text-align: left;
 }
+@media (max-width: 415px) {
+  #page-popular-track h3 {
+    margin: 18px 0 0 0;
+  }
+}
 #page-popular-track p {
   line-height: 0;
+}
+@media (max-width: 415px) {
+  #page-popular-track p {
+    margin: 0;
+    font-size: 12.8px;
+    line-height: 150%;
+  }
 }
 #page-popular-track .popular-track img {
   width: 55px;
@@ -678,6 +690,11 @@ h3 {
   display: flex;
   margin-bottom: 25px;
 }
+@media (max-width: 415px) {
+  #page-popular-track .popular-tracks .popular-track {
+    margin-right: 0;
+  }
+}
 #page-popular-track .popular-tracks .popular-track:nth-child(5), #page-popular-track .popular-tracks .popular-track:nth-child(6) {
   margin-bottom: 0;
 }
@@ -698,6 +715,11 @@ h3 {
 }
 #page-popular-track .popular-tracks .track-time {
   text-align: right;
+}
+@media (max-width: 415px) {
+  #page-popular-track .popular-tracks .track-time {
+    margin: 0 0 -10px 0;
+  }
 }
 
 #page-discography {
