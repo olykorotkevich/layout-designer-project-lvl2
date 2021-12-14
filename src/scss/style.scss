@@ -839,6 +839,13 @@ h3 {
             &:nth-child(4) {
                 margin-bottom: 25px;
             }
+
+            @media (max-width: 415px) {
+                &:nth-child(5),
+                &:nth-child(6) {
+                    margin-bottom: 25px;
+                }
+            }
         }
 
         .similar-item img {
