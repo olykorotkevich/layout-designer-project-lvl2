@@ -558,10 +558,12 @@ h3 {
                 display: flex;
                 flex-wrap: wrap;
                 margin-right: 430px;
+                
 
-                @media (max-width: 415px) {                    
+                @media (max-width: 415px) {                                       
                     margin: 16px auto 16px 0;                    
                     padding: 0;
+                    
                 }
 
                 li {
@@ -569,9 +571,9 @@ h3 {
                     padding-right: 24px;
 
                     @media (max-width: 415px) {
-                        width: 100%;
+                        width: 82px;
                         text-align: left;                        
-                        margin: 0; 
+                        margin: 0 300px 0 0; 
                         font-size: 11px;  
                         line-height: 13px;                     
                     }
