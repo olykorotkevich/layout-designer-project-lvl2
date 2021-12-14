@@ -654,7 +654,8 @@ h3 {
 }
 @media (max-width: 415px) {
   #page-popular-track h3 {
-    margin: 18px 0 0 0;
+    line-height: 150%;
+    margin: 7px 0 -8px 0;
   }
 }
 #page-popular-track p {
