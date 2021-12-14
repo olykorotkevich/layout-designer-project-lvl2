@@ -446,7 +446,9 @@ h3 {
 
 #page-app {
     padding-top: 100px;   
-    margin-bottom: 100px;    
+    margin-bottom: 100px;
+    
+    
 
     h2 {
         
@@ -463,6 +465,7 @@ h3 {
         @media (max-width: 415px) {
             flex-wrap: wrap;
             flex-direction: column-reverse;
+            align-items: center;
             margin: 0;
         }
 
@@ -472,6 +475,12 @@ h3 {
             @media (max-width: 415px) {
                 margin: 0;
             }
+            
+             p {
+                @media (max-width: 415px) {
+                    margin-top: 9px;
+                }
+             }
 
             .btn {
                 padding: 16px 40px;
