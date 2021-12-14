@@ -443,7 +443,7 @@ h3 {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 .footer .footer-top {
-  padding: 3rem 0 72px 0;
+  padding: 3rem 0 2px 0;
   border-bottom: 2px solid #cacaca;
 }
 .footer .footer-top h2 {
@@ -506,7 +506,7 @@ h3 {
 }
 
 .page-description2 {
-  padding: 200px 0;
+  padding: 200px 0 225px 0;
   background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
@@ -524,7 +524,7 @@ h3 {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  top: 25px;
+  top: 9px;
 }
 .page-description2 .header a {
   text-decoration: none;
@@ -534,7 +534,7 @@ h3 {
   text-transform: uppercase;
 }
 .page-description2 .header .logo {
-  margin-right: 90px;
+  margin-right: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -556,7 +556,7 @@ h3 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-right: 460px;
+  margin-right: 430px;
 }
 @media (max-width: 415px) {
   .page-description2 .header .nav ul {
@@ -594,6 +594,9 @@ h3 {
 .page-description2 .banner {
   text-align: left;
 }
+.page-description2 .banner h1 {
+  margin-top: 50px;
+}
 .page-description2 .banner .btn {
   display: inline-block;
   width: 200px;
@@ -613,8 +616,7 @@ h3 {
 }
 .page-description2 .banner .purple {
   background: #5328a1;
-  margin-top: 48px;
-  margin-right: 24px;
+  margin: 30px 20px 0 0;
 }
 @media (max-width: 415px) {
   .page-description2 .banner .purple {
@@ -627,6 +629,7 @@ h3 {
 }
 #page-popular-track h2 {
   text-align: left;
+  margin-bottom: 50px;
 }
 #page-popular-track h3 {
   font-weight: bold;
@@ -689,6 +692,7 @@ h3 {
 }
 #page-discography h2 {
   text-align: left;
+  margin-bottom: 47px;
 }
 @media (max-width: 415px) {
   #page-discography h2 {
