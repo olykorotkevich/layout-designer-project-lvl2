@@ -787,6 +787,11 @@ h3 {
   text-align: left;
   margin-bottom: 46px;
 }
+@media (max-width: 415px) {
+  #page-similar h2 {
+    margin-bottom: 48px;
+  }
+}
 #page-similar h3 {
   text-transform: none;
   margin: 11px 0 0 0;

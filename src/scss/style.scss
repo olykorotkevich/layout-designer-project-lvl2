@@ -796,7 +796,11 @@ h3 {
 
     h2 {
         text-align: left;
-        margin-bottom: 46px;        
+        margin-bottom: 46px; 
+        
+        @media (max-width: 415px) {
+            margin-bottom: 48px;
+        }
     }
 
     h3 {
