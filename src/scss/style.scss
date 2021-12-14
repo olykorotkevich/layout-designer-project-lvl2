@@ -338,7 +338,11 @@ h3 {
 }
 
 #page-news {
-    padding-top: 100px;    
+    padding-top: 100px;  
+    
+    @media (max-width: 415px) {
+        padding-top: 84px;
+    }
 
 
     h2 {
@@ -351,10 +355,10 @@ h3 {
         line-height: 45px;
         text-align: left;
         margin: 0 0 30px 0;
-
         text-transform: capitalize;        
 
         @media (max-width: 415px) {
+            margin: 0;
             font-size: 16px;
             line-height: 24px;
         }
@@ -367,16 +371,16 @@ h3 {
         flex-wrap: wrap;
         margin: 0 -25px 0 -25px;       
 
+        @media (max-width: 415px) {
+            margin: 0;
+        }
 
         &:nth-child(3) {
             @media (max-width: 415px) {
                 flex-direction: column-reverse;
+                margin: 0;
             }
-        }
-
-        @media (max-width: 415px) {
-            margin: 0;
-        }
+        }        
 
         .news-item-img img {
             max-width: 100%;
@@ -433,6 +437,10 @@ h3 {
 
     .mb-65 {
         margin-bottom: 65px;
+
+        @media (max-width: 415px) {
+            margin-bottom: 85px;
+        }
     }
 }
 
