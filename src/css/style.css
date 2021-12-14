@@ -198,7 +198,12 @@ h3 {
 }
 
 .banner h1 {
-  margin-top: 50px;
+  margin-top: 30px;
+}
+@media (max-width: 415px) {
+  .banner h1 {
+    margin-top: 50px;
+  }
 }
 .banner input {
   min-width: 270px;
