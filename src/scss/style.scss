@@ -443,7 +443,7 @@ h3 {
     background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 
     .footer-top {
-        padding: 3rem 0 52px 0;
+        padding: 3rem 0 72px 0;
         border-bottom: 2px solid #cacaca;
 
         h2 {
@@ -453,18 +453,19 @@ h3 {
             text-transform: uppercase;
             text-align: left;
             margin-top: 16px;
-            margin-bottom: 15px;
+            margin-bottom: 13px;
            
         }
 
         a {
-            display: block;
+          
             text-decoration: none;
             color: #e0e0e0;
         }
 
         ul {
             padding: 0;
+            margin: 0;
         }
 
         li {
