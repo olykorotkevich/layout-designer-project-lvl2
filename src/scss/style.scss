@@ -105,6 +105,10 @@ h3 {
     color: #ffffff;
     position: relative;    
     padding: 200px 0 178px 0;
+
+    @media (max-width: 415px) {
+        padding: 200px 0 178px 0;
+    }
         
 
     .header {
@@ -220,6 +224,7 @@ h3 {
 
         @media (max-width: 415px) {
             min-width: 374px;
+            margin-left: 0;
         }
     }
 

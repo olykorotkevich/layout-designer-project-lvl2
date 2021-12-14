@@ -105,6 +105,11 @@ h3 {
   position: relative;
   padding: 200px 0 178px 0;
 }
+@media (max-width: 415px) {
+  .page-description {
+    padding: 200px 0 178px 0;
+  }
+}
 .page-description .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -222,6 +227,7 @@ h3 {
 @media (max-width: 415px) {
   .banner input {
     min-width: 374px;
+    margin-left: 0;
   }
 }
 .banner input.green {
