@@ -739,19 +739,20 @@ h3 {
         font-size: 12.8px;
         line-height: 19.2px;
         text-transform: uppercase;
-        text-align: left;       
-        margin: 7px 179px 0 0;            
-        
+        text-align: left;
+        margin: 7px 350px 0 0;
+
+        @media (max-width: 415px) {           
+            margin: 7px 179px 0 0;            
+        }
        
     }
 
     p {
-        line-height: 0;
-        @media (max-width: 415px) {
-            margin: 0 179px 0 0;
-            font-size: 12.8px;
-            line-height: 150%;
-        }
+        margin: 0 179px 0 0;
+        font-size: 12.8px;
+        line-height: 150%;
+        
     }
 
     .popular-track img {
