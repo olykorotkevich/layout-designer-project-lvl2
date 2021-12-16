@@ -741,12 +741,7 @@ h3 {
   line-height: 19.2px;
   text-transform: uppercase;
   text-align: left;
-  margin: 5px 0;
-}
-@media (max-width: 415px) {
-  #page-popular-track h3 {
-    margin: 7px 179px 0 0;
-  }
+  margin: 7px 179px 0 0;
 }
 #page-popular-track p {
   line-height: 0;
