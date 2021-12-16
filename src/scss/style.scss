@@ -504,6 +504,10 @@ h3 {
         padding: 3rem 0 72px 0;
         border-bottom: 2px solid #cacaca;
 
+        @media (max-width: 415px) {
+            padding: 46px 0 72px 0;
+         }
+
         h2 {
             font-size: 18px;
             font-weight: bold;
@@ -512,6 +516,8 @@ h3 {
             text-align: left;
             margin-top: 15px;
             margin-bottom: 13px;
+
+            
         }
 
         a {          
@@ -564,7 +570,11 @@ h3 {
     }
 
     .footer-bottom {
-        padding: 40px 0 38px 0;
+        padding: 40px 0 50px 0;
+
+        @media (max-width: 415px) {
+            padding: 40px 0 40px 0;
+        }
 
         a {
             text-decoration: none;

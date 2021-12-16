@@ -512,6 +512,11 @@ h3 {
   padding: 3rem 0 72px 0;
   border-bottom: 2px solid #cacaca;
 }
+@media (max-width: 415px) {
+  .footer .footer-top {
+    padding: 46px 0 72px 0;
+  }
+}
 .footer .footer-top h2 {
   font-size: 18px;
   font-weight: bold;
@@ -568,7 +573,12 @@ h3 {
   margin-right: 20px;
 }
 .footer .footer-bottom {
-  padding: 40px 0 38px 0;
+  padding: 40px 0 50px 0;
+}
+@media (max-width: 415px) {
+  .footer .footer-bottom {
+    padding: 40px 0 40px 0;
+  }
 }
 .footer .footer-bottom a {
   text-decoration: none;
