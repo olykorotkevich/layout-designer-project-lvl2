@@ -207,12 +207,14 @@ h3 {
     margin-top: 48px;
   }
 }
+.banner form {
+  max-width: 570px;
+  margin: 0 auto;
+}
 .banner input {
   min-width: 270px;
   min-height: 50px;
   padding-left: 20px;
-  margin-right: 12px;
-  margin-left: 12px;
   margin-bottom: 1.5rem;
   border: 2px solid #cacaca;
   border-radius: 3px;
@@ -227,8 +229,10 @@ h3 {
 @media (max-width: 415px) {
   .banner input {
     min-width: 374px;
-    margin-left: 0;
   }
+}
+.banner .mr-24 {
+  margin-right: 24px;
 }
 .banner input.green {
   width: 570px;
