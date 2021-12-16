@@ -692,11 +692,11 @@ h3 {
   text-align: left;
 }
 .page-description2 .banner h1 {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 @media (max-width: 415px) {
   .page-description2 .banner h1 {
-    margin-top: 50px;
+    margin-top: 25px;
   }
 }
 .page-description2 .banner .btn {
@@ -715,10 +715,11 @@ h3 {
 }
 .page-description2 .banner .orange {
   background: #95390c;
+  margin-bottom: 25px;
 }
 .page-description2 .banner .purple {
   background: #5328a1;
-  margin: 30px 20px 0 0;
+  margin: 30px 20px 50px 0;
 }
 @media (max-width: 415px) {
   .page-description2 .banner .purple {
