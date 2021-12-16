@@ -11,57 +11,57 @@
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-
+ 
 body {
-    padding: 0;
-    margin: 0;
-    font-family: "Roboto";
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #cacaca;
-    background: #08020d;    
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #cacaca;
+  background: #08020d;
 }
 
 .btn {
-    display: block;
-    background: none;
-    border: 1px solid #cacaca;
-    border-radius: 5px;
-    color: #cacaca;
-    text-align: center;
-    text-decoration: none;
-    font-weight: normal;
+  display: block;
+  background: none;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  color: #cacaca;
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
 }
 
 h1 {
-    font-size: 60px;
-    line-height: 90px;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 0;
-    margin: 0;
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
-    font-size: 38px;
-    line-height: 57px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    color: #ffffff;
-    margin: 0 0 30px 0;
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 0 30px 0;
 }
 
 h3 {
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: normal;
-    color: #ffffff;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #ffffff;
 }
 
 @media (max-width: 415px) {
