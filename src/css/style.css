@@ -707,6 +707,7 @@ h3 {
   font-size: 12.8px;
   line-height: 150%;
   padding: 20px 30px;
+  text-transform: uppercase;
 }
 .page-description2 .banner .btn img {
   width: 20px;
