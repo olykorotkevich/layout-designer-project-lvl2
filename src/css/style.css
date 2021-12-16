@@ -749,9 +749,14 @@ h3 {
   }
 }
 #page-popular-track p {
-  margin: 0 179px 0 0;
+  margin: 0 395px 0 0;
   font-size: 12.8px;
   line-height: 150%;
+}
+@media (max-width: 415px) {
+  #page-popular-track p {
+    margin: 7px 179px 0 0;
+  }
 }
 #page-popular-track .popular-track img {
   width: 55px;
