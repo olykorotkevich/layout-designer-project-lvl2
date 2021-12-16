@@ -573,7 +573,7 @@ h3 {
 }
 @media (max-width: 415px) {
   .footer .footer-bottom {
-    padding: 40px 0 40px 0;
+    padding: 36px 0 36px 0;
   }
 }
 .footer .footer-bottom a {
@@ -584,7 +584,7 @@ h3 {
 @media (max-width: 415px) {
   .footer .footer-bottom a {
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
   }
 }
 
