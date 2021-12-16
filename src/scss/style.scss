@@ -108,6 +108,7 @@ h3 {
 
 .page-description {
   position: relative;
+
   padding: 200px 0 200px 0;
 
   color: #fff;
@@ -122,19 +123,20 @@ h3 {
   }
 
   .header {
-      position: absolute;
-      top: 9px;
-      right: 50px;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
+    position: absolute;
+    top: 9px;
+    right: 50px;
 
-      @media (max-width: 415px) {
-        top: 25px;
-        right: 0;
-        left: 20px;
-      }
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    @media (max-width: 415px) {
+      top: 25px;
+      right: 0;
+      left: 20px;
     }
+  }
 
   a {
     color: #fff;
@@ -144,9 +146,9 @@ h3 {
     text-decoration: none;
     }
 
-  .logo {
-    margin-right: 52px;
+  .logo {    
     display: flex;
+    margin-right: 52px;
     align-items: center;
 
       img {
@@ -154,10 +156,10 @@ h3 {
         }
 
       span {
-        margin-left: 16px;
         display: block;
+        margin-left: 16px;
+    
         white-space: nowrap;
-       
       }
     }
 
@@ -165,42 +167,41 @@ h3 {
         ul {
             display: flex;
             flex-wrap: wrap;
-            margin-right: 428px;           
+            margin-right: 428px;
 
-            @media (max-width: 415px) {                                       
-                margin: 16px auto 16px 0;                    
+            @media (max-width: 415px) {
+                margin: 16px auto 16px 0;
                 padding: 0;
-                
             }
 
             li {
-                list-style: none;
                 padding-right: 24px;
+                list-style: none;                
 
                 @media (max-width: 415px) {
                     width: 82px;
-                    text-align: left;                        
-                    margin: 0 300px 0 0; 
+                    margin: 0 300px 0 0;
                     font-size: 11px;  
-                    line-height: 13px;                     
+                    line-height: 13px; 
+                    text-align: left;   
                 }
             }
         }
     }
     .form-group {
         input {
+            width: 248px;
             min-height: 25px;
-            background: #3c3b3d;
-            border-radius: 50px;
-            font-size: 13.3px;
-            line-height: 15px;
-            color: #757575;
-            border: none;
+            margin-right: 70px;
             padding: 5px;
             padding-left: 10px;
+            color: #757575;
+            font-size: 13.3px;
+            line-height: 15px;
             text-transform: uppercase;
-            width: 248px;
-            margin-right: 70px;
+            background: #3c3b3d;
+            border-radius: 50px;           
+            border: none;
 
             @media (max-width: 415px) {
                 width: 374px;
