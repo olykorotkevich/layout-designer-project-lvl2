@@ -144,64 +144,67 @@ h3 {
     line-height: 16px;
     text-transform: uppercase;
     text-decoration: none;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 52px;
+
+    img {
+      height: 24px;
     }
 
-  .logo {    
-    display: flex;
-    margin-right: 52px;
-    align-items: center;
+    span {
+      display: block;
+      margin-left: 16px;
 
-      img {
-        height: 24px;
+      white-space: nowrap;
+    }
+  }
+
+  .nav {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: 428px;
+
+      @media (max-width: 415px) {
+         margin: 16px auto 16px 0;
+         padding: 0;
+      }
+
+      li {
+        padding-right: 24px;
+        list-style: none;
+
+        @media (max-width: 415px) {
+          width: 82px;
+          margin: 0 300px 0 0;
+          font-size: 11px;
+          line-height: 13px;
+          text-align: left;
         }
-
-      span {
-        display: block;
-        margin-left: 16px;
-    
-        white-space: nowrap;
       }
     }
+  }
 
-    .nav {
-        ul {
-            display: flex;
-            flex-wrap: wrap;
-            margin-right: 428px;
+  .form-group {
+    input {
+      width: 248px;
+      min-height: 25px;
+      margin-right: 70px;
+      padding: 5px;
+      padding-left: 10px;
+    
+      color: #757575;
+      font-size: 13.3px;
+      line-height: 15px;
+      text-transform: uppercase;
 
-            @media (max-width: 415px) {
-                margin: 16px auto 16px 0;
-                padding: 0;
-            }
-
-            li {
-                padding-right: 24px;
-                list-style: none;                
-
-                @media (max-width: 415px) {
-                    width: 82px;
-                    margin: 0 300px 0 0;
-                    font-size: 11px;  
-                    line-height: 13px; 
-                    text-align: left;   
-                }
-            }
-        }
-    }
-    .form-group {
-        input {
-            width: 248px;
-            min-height: 25px;
-            margin-right: 70px;
-            padding: 5px;
-            padding-left: 10px;
-            color: #757575;
-            font-size: 13.3px;
-            line-height: 15px;
-            text-transform: uppercase;
-            background: #3c3b3d;
-            border-radius: 50px;           
-            border: none;
+      background: #3c3b3d;
+      border-radius: 50px;
+      border: none;
 
             @media (max-width: 415px) {
                 width: 374px;
