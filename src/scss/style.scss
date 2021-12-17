@@ -768,80 +768,6 @@ h3 {
   }
 }
 
-#page-similar {
-  margin-bottom: 100px;
-  padding-top: 100px;
-
-  h2 {
-    margin-bottom: 46px;
-
-    text-align: left;
-
-    @media (max-width: 415px) {
-      margin-bottom: 48px;
-    }
-  }
-
-  h3 {
-    margin: 11px 0 0 0;
-
-    text-transform: capitalize;
-  }
-
-  p {
-    margin: 0;
-  }
-
-  .similar-items {
-    display: flex;
-    flex-wrap: wrap;
-
-    text-align: center;
-
-    .similar-item {
-      margin-right: 50px;
-
-      @media (max-width: 415px) {
-        width: 137px;
-        margin-right: 0;
-      }
-
-      &:nth-child(odd) {
-        @media (max-width: 415px) {
-          margin-right: 50px;
-        }
-      }
-
-      h3 {
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 27px;
-      }
-
-      &:first-child,
-      &:nth-child(2),
-      &:nth-child(3),
-      &:nth-child(4) {
-        margin-bottom: 25px;
-      }
-
-      @media (max-width: 415px) {
-        &:nth-child(5),
-        &:nth-child(6) {
-          margin-bottom: 25px;
-        }
-      }
-    }
-
-    .similar-item img {
-      @media (max-width: 415px) {
-        width: 137px;
-        height: 137px;
-      }
-    }
-  }
-}
-
 #page-pricing {
   padding-top: 98px;
 
@@ -936,6 +862,80 @@ h3 {
 
   .bg-free3 {
     background-image: url("../images/subscribe_3.png");
+  }
+}
+
+#page-similar {
+  margin-bottom: 100px;
+  padding-top: 100px;
+
+  h2 {
+    margin-bottom: 46px;
+
+    text-align: left;
+
+    @media (max-width: 415px) {
+      margin-bottom: 48px;
+    }
+  }
+
+  h3 {
+    margin: 11px 0 0 0;
+
+    text-transform: capitalize;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .similar-items {
+    display: flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+
+    .similar-item {
+      margin-right: 50px;
+
+      @media (max-width: 415px) {
+        width: 137px;
+        margin-right: 0;
+      }
+
+      &:nth-child(odd) {
+        @media (max-width: 415px) {
+          margin-right: 50px;
+        }
+      }
+
+      h3 {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 27px;
+      }
+
+      &:first-child,
+      &:nth-child(2),
+      &:nth-child(3),
+      &:nth-child(4) {
+        margin-bottom: 25px;
+      }
+
+      @media (max-width: 415px) {
+        &:nth-child(5),
+        &:nth-child(6) {
+          margin-bottom: 25px;
+        }
+      }
+    }
+
+    .similar-item img {
+      @media (max-width: 415px) {
+        width: 137px;
+        height: 137px;
+      }
+    }
   }
 }
 
