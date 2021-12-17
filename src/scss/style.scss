@@ -170,17 +170,19 @@ h3 {
       margin-right: 428px;
 
       @media (max-width: 415px) {
-         margin: 16px auto 16px 0;
-         padding: 0;
+        margin: 16px auto 16px 0;
+        padding: 0;
       }
 
       li {
         padding-right: 24px;
+
         list-style: none;
 
         @media (max-width: 415px) {
           width: 82px;
           margin: 0 300px 0 0;
+
           font-size: 11px;
           line-height: 13px;
           text-align: left;
@@ -196,99 +198,99 @@ h3 {
       margin-right: 70px;
       padding: 5px;
       padding-left: 10px;
-    
+
       color: #757575;
       font-size: 13.3px;
       line-height: 15px;
       text-transform: uppercase;
 
       background: #3c3b3d;
-      border-radius: 50px;
       border: none;
+      border-radius: 50px;
 
-            @media (max-width: 415px) {
-                width: 374px;
-                margin-right: 0;
-            }
-        }
+      @media (max-width: 415px) {
+        width: 374px;
+        margin-right: 0;
+      }
     }
+  }
 }
+
 .banner {
-    
-    h1 {        
-
-        @media (max-width: 415px) {
-            margin-top: 48px;
-        }
+  h1 {
+    @media (max-width: 415px) {
+      margin-top: 48px;
     }
-    
-    form {
-        max-width: 570px;
-        margin: 0 auto;
-    }
+  }
 
-    input {
-        min-width: 270px;
-        min-height: 50px;
-        padding-left: 20px;       
-        margin-bottom: 1.5rem;
-        border: 2px solid #cacaca;
-        border-radius: 3px;
-        background: none;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 16px;
-        color: #fff;
-        box-sizing: border-box;
+  form {
+    max-width: 570px;
+    margin: 0 auto;
+  }
 
-        @media (max-width: 415px) {
-            min-width: 374px;            
-        } 
-    }
+  input {
+    min-width: 270px;
+    min-height: 50px;
+    margin-bottom: 1.5rem;
+    padding-left: 20px;       
 
-    .mr-24 {
-        margin-right: 24px;
-    }
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
 
-    input.green {
-        width: 570px;
-        background: #34c176;
-        padding: 20px 30px;
-        border-radius: 5px;
-        border: none;
-        font-size: 13.3px;
-        line-height: 18px;
-        text-transform: uppercase;
-        box-sizing: border-box;
+    background: none;
+    border: 2px solid #cacaca;
+    border-radius: 3px;
+        
+    @media (max-width: 415px) {
+      min-width: 374px;            
+    } 
+  }
 
-        @media (max-width: 415px) {
-            width: 374px;
-            margin: 0;
-        }
-    }
+  .mr-24 {
+    margin-right: 24px;
+  }
+
+  input.green {
+    width: 570px;
+    padding: 20px 30px;
+    font-size: 13.3px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    background: #34c176;
+    border: none;
+    border-radius: 5px;
+        
+    @media (max-width: 415px) {
+      width: 374px;
+      margin: 0;
+      }
+  }
 }
 
 #page-pricing {
-    padding-top: 98px;
-    color: #fff;
+  padding-top: 98px;
+  color: #fff;
     
+  @media (max-width: 415px) {
+    padding-top: 102px;
+  }
+
+  .pricing-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 0 -25px;  
+
     @media (max-width: 415px) {
-        padding-top: 102px;      
+      margin: 0 -25px  36px -25px;
     }
+  }    
 
-    .pricing-items {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center; 
-        margin: 0 -25px;  
-
-        @media (max-width: 415px) {
-            margin: 0 -25px  36px -25px;        
-        }
-    }    
-
-    .pricing-item {
+  .pricing-item {
         width: calc(33.3% - 50px);        
         margin: 18px 25px 28px 25px;
         background-position: center;
