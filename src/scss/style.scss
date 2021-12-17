@@ -507,7 +507,7 @@ h3 {
       @media (max-width: 415px) {
         margin: 0;
       }
-      
+
       p {
         @media (max-width: 415px) {
           margin-top: 9px;
@@ -522,6 +522,7 @@ h3 {
         color: #fff;
         font-size: 12.8px;
         line-height: 19px;
+
         background: #95390c;
         border: none;
         border-radius: 32px;
@@ -541,7 +542,7 @@ h3 {
     @media (max-width: 415px) {
       padding: 62px 0 40px 0;
     }
-   
+
     h2 {
       margin-top: 15px;
       margin-bottom: 13px;
@@ -618,6 +619,7 @@ h3 {
 
 .page-description2 {
   position: relative;
+
   padding: 200px 0 200px 0;
 
   color: #fff;
@@ -628,13 +630,13 @@ h3 {
   background-size: cover;
 
   .header {
+    position: absolute;
+    top: 9px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    position: absolute;
-    top: 9px;
 
-    @media (max-width: 415px){
+    @media (max-width: 415px) {
       top: 25px;
     }
 
@@ -642,8 +644,8 @@ h3 {
       color: #fff;
       font-size: 11px;
       line-height: 16px;
-      text-decoration: none;
       text-transform: uppercase;
+      text-decoration: none;
     }
 
     .logo {
@@ -658,6 +660,7 @@ h3 {
       span {
         display: block;
         margin-left: 16px;
+
         white-space: nowrap;
       }
     }
@@ -668,36 +671,39 @@ h3 {
         flex-wrap: wrap;
         margin-right: 430px;
 
-        @media (max-width: 415px) {                                       
+        @media (max-width: 415px) {
           margin: 16px auto 16px 0;
           padding: 0;
         }
 
         li {
-          list-style: none;
           padding-right: 24px;
+          list-style: none;
 
           @media (max-width: 415px) {
             width: 82px;
             margin: 0 300px 0 0;
-            font-size: 11px;  
+
+            font-size: 11px;
             line-height: 13px;
-            text-align: left;                     
+            text-align: left;
           }
         }
       }
     }
+
     .form-group {
       input {
         width: 248px;
         min-height: 25px;
         padding: 5px;
         padding-left: 10px;
-    
+
         color: #757575;
         font-size: 13.3px;
         line-height: 15px;
         text-transform: uppercase;
+
         background: #3c3b3d;
         border: none;
         border-radius: 50px;
@@ -725,11 +731,13 @@ h3 {
       width: 200px;
       height: 62px;
       padding: 20px 30px;
+
       font-size: 12.8px;
-      line-height: 150%;      
+      line-height: 150%;
       text-transform: uppercase;
+
       border: none;
-      
+
       img {
         width: 20px;
         height: 20px;
@@ -739,11 +747,13 @@ h3 {
 
     .orange {
       margin-bottom: 25px;
+
       background: #95390c;
     }
 
     .purple {
-      margin: 30px 20px 50px 0 ;
+      margin: 30px 20px 50px 0;
+
       background: #5328a1;
 
       @media (max-width: 415px) {
@@ -758,28 +768,31 @@ h3 {
 
   h2 {
     margin-bottom: 50px;
+
     text-align: left;
   }
 
   h3 {
     margin: 7px 350px 0 0;
+
     font-weight: bold;
     font-size: 12.8px;
     line-height: 19.2px;
     text-align: left;
     text-transform: uppercase;
 
-    @media (max-width: 415px) {           
-      margin: 7px 179px 0 0;            
-    }    
+    @media (max-width: 415px) {
+      margin: 7px 179px 0 0;
+    }
   }
 
   p {
     margin: 0 395px 0 0;
+
     font-size: 12.8px;
     line-height: 150%;
 
-    @media (max-width: 415px) {           
+    @media (max-width: 415px) {
       margin: 0px 179px 0 0;
     }
   }
@@ -831,7 +844,7 @@ h3 {
       text-align: right;
 
       @media (max-width: 415px) {
-        margin: 0;               
+        margin: 0;
       }
     }
   }
