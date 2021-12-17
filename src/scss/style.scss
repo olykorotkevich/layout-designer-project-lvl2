@@ -229,6 +229,7 @@ h3 {
         padding: 0;
       }
     }
+
     li {
       padding-right: 24px;
 
@@ -849,6 +850,16 @@ h3 {
   @media (max-width: 415px) {
     padding-top: 102px;
   }
+  h3 {
+    margin: 0;
+    margin-bottom: 200px;
+
+    line-height: 1.5;
+
+    @media (max-width: 415px) {
+      font-size: 16px;
+    }
+  }
 
   .pricing-items {
     display: flex;
@@ -877,17 +888,6 @@ h3 {
       width: 100%;
       margin: 46px  25px 5px 25px;
       padding: 17px 1.5rem 50px 1.5rem;
-    }
-
-    h3 {
-      margin: 0;
-      margin-bottom: 200px;
-
-      line-height: 1.5;
-
-      @media (max-width: 415px) {
-        font-size: 16px;
-      }
     }
 
     .pricing-value {
